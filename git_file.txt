@@ -1,0 +1,3 @@
+Hi there,
+It's me doing the integration of git and vscode and pushing the repo on github .
+stay tuned!
