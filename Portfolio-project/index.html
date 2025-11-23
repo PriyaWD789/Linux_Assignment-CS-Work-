@@ -1,0 +1,99 @@
+<Doctype! html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title> Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header id ="header">
+            <h1 > My Portfolio </h1>
+            <nav>
+                <ul>
+                    <li> <a href="#one"> ABOUT </a> </li>
+                    <li> <a href="#two"> PROJECTS </a></li>
+                    <li> <a href="#three">SKILLS </a></li>
+                    <li> <a href="#four"> CONTACTS </a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="one">
+                <h2 class="heading"> About Me </h2>
+                <img src="image.png" alt="can't find the image" height="200" width="200"><br>
+                <p> I'm passionate about learning web development and making creative and intruiguing projects.
+                    Dive in to know more about me and my work...</p>
+                </p>
+            </section>
+            <hr> 
+            <section id="two">
+                <h2> My Projects</h2>
+                <ul>
+                    <li>
+                        <p><b>Portfolio Website:</b> A perosnal one-page website to present my bio,skills,and contact
+                            details. </p>
+                    </li>
+                    <li>
+                        <p><b>User form:</b> A form webpage designed to with fields like name, email,and message for
+                            practicing form creation.</p>
+                    </li>
+                    <li>
+                        <p><b>Blog:</b> A simple blog page creation using semantic HTML tags... </p>
+                    </li>
+                </ul>
+            <hr>
+            </section>
+            <section id ="three">
+                <h2> Technical Skills</h2>
+                <table height="250" width="280">
+                    <thead>
+                        <tr>
+                            <th><b> Skill </b> </th>
+                            <th><b> Level</b> </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> HTML</td>
+                            <td> Beginner</td>
+                        </tr>
+                        <tr>
+                            <td> CSS </td>
+                            <td> Beginner </td>
+                        </tr>
+                        <tr>
+                            <td> Javascript </td>
+                            <td> Beginner </td>
+                        </tr>
+                    </tbody>
+                </table>
+            <hr>
+            </section>
+            <section id="four">
+                <h2> Contact Me</h2>
+                <table id="form">
+                <form>
+                <tr>
+                <td class="ok"><label for="name"> Full Name:-</label> </td>
+                 <td class="ok"><input type="text" name="" id="name" placeholder="Fullname" required><br> </td> </tr>
+                 <tr>
+                    <td class="ok"><label for="email"> Email:- </label></td>
+                     <td class="ok"><input type="email" placeholder="Email Id" required> <br> </td></tr>
+                    <tr>
+                    <td class="ok"> <label for ="msg"> Message:- </label></td>
+                     <td class="ok">  <textarea name="" id="" placeholder="Enter your message" required></textarea> </label> <br></td></tr>
+                    <tr>
+                     <td colspan="2" id="but-cell"><button type="submit" id="but-save"> Send </button> </td> </tr>
+                </form> </table>
+            </section>
+            <a href="#header" id="back-to-top-btn">↑ Back to Top</a>
+        </main>
+        <footer>
+            
+        </footer>
+    </body>
+
+    </html>
